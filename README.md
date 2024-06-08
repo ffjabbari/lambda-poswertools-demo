@@ -29,7 +29,13 @@ storage logic.
 Deploy the demo to your AWS account using [AWS CDK](https://aws.amazon.com/cdk/).
 
 ```bash
-npm install
+DO THESE COMMANDS BELOW AND IT WORKS PERFECTLY... PERFECT-DO-MOONDO..... FRED TO FRED 
+rm -rf package-lock.json
+rm -rf node_modules
+npm i node@22.0.0
+npm i
+cdk bootstrap aws://636090713215/us-east-1
+cdk synth
 cdk deploy
 ```
 
