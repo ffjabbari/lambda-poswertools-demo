@@ -23,7 +23,7 @@ cdk deploy
   <img src="imgs/diagram.png" alt="Architecture diagram"/>
 </p>
 
-This is a simple serverless application built in Typescript and uses Node.js 14 runtime. It consists of an 
+This is a simple serverless application built in Typescript and uses Node.js 14 runtime. (Now Fred, as you see I am using npm i node@22.0.0 instead ) It consists of an 
 [Amazon API Gateway](https://aws.amazon.com/api-gateway/) backed by four [AWS Lambda](https://aws.amazon.com/lambda/) 
 functions and an [Amazon DynamoDB](https://aws.amazon.com/dynamodb/) table for storage. 
 
